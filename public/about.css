@@ -1,0 +1,27 @@
+.bigtext {
+    text-align: center;
+}
+.wrapper {
+    width: 100%;
+    height: auto;
+}
+.wrapper div{
+    float: left;
+    width: 50%;
+    height: auto;
+
+}
+.wrapper div img{
+    height: 250px;;
+    width: 250px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 550px) {
+    .wrapper div {
+      width: 100%;
+    }
+  }
